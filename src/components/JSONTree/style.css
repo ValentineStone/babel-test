@@ -1,0 +1,44 @@
+.JSONTree {
+  font-family: monospace;
+}
+
+.JSONTree .array {
+  display: inline;
+  list-style: none;
+  padding: 0;
+}
+
+.JSONTree .object,
+.JSONTree .key,
+.JSONTree .value {
+  margin: 0;
+  display: inline;
+}
+
+.JSONTree .item,
+.JSONTree .entry {
+  display: block;
+  margin-left: 1em;
+}
+
+.JSONTree .primitive {
+  font-weight: bold;
+}
+.JSONTree .string {
+  color: rgb(150,150,200);
+}
+.JSONTree .key {
+  color: rgb(100,150,100);
+}
+.JSONTree .null {
+  color: rgb(100,100,150);
+}
+.JSONTree .number {
+  color: rgb(250,100,100);
+}
+.JSONTree .boolean {
+  color: orange;
+}
+.JSONTree .undefined {
+  color: rgb(100,150,100);
+}

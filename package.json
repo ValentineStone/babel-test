@@ -1,0 +1,33 @@
+{
+  "name": "babel-test",
+  "version": "0.1.0",
+  "description": "Sesting babel stuff",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "babel",
+    "es6",
+    "react",
+    "jsx",
+    "nodemon"
+  ],
+  "author": "Leonid Romanovsky <sirLeonidRomanovsky@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-syntax-jsx": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "chalk": "^2.4.1",
+    "chokidar": "^2.0.4",
+    "express": "^4.16.3",
+    "fs-extra": "^5.0.0",
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "monaco-editor": "^0.10.1"
+  },
+  "main": "watch.js"
+}
